@@ -1,0 +1,158 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: getLength
+Time: 0 
+
+// Write a function "getLength" that returns the length of a string. Accomplish this without using any loops, native JS methods, or the length property.
+
++ super freindly 
+- doesn't read prompt
++ good immedaite grasp of recursion
++ communicates throguh each call
+
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 9:00 
+
+/*
+Create a function "countChar" that takes two arguments (an input string and a target string).
+"countChar" will return the number of times the target string is found in the input string.
+Example:
+countChar('hello world', 'o'); -> 2
+countChar('javascript', 'j'); -> 1
+Note: Do not use any native JS methods, or loops.
+*/
+
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 24
+
+/*
+Create a function "sumAllElements" that takes in two arguments (an array of numbers and a initial value). "sumAllElements" will return the sum of the elements in the array starting at the initial value.
+Example:
+sumAllElements([1,2,3,4], 10) -> 20
+Note: Do NOT use any native JS methods, or loops
+*/
+
+
+***************************************************************
+**LEVEL 4 CHALLENGES**
+Problem A: transpose
+Time: 
+
+/*
+Write a function called 'transpose' that accepts a two dimensional array and returns a transposed version of that array.
+Example:
+const twoDimArray = [ ['fred', 'barney'], [30, 40], [true, false] ]
+console.log(transpose(twoDimArray)); // -> [['fred', 30, true], ['barney', 40, false]]
+*/
+
+
+
+Problem B: rotateGrid
+Time:
+
+/*
+Write a function 'rotateGrid' that is given an NxN grid of elements represented by a 2D array, and outputs a grid equivalent to the same grid rotated 90 degrees clockwise.
+Example:
+const sampleGrid = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]
+console.log(rotateGrid(sampleGrid)); // -> [ [7, 4, 1], [8, 5, 2], [9, 6, 3] ]
+*/
+
+
+
+***************************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+What is the difference between a parameter and an argument?
+What is a callback? What is a higher-order function?
+Can you explain the difference between backet notation and dot notation?
+What is hoisting?
+What is the difference between the two equality comparisons: loosely equal and strictly equal?
+Can you describe closure to me?
+var vs let vs const.
+What is the difference between a console log and a return statement?
+
+Can you explain the main parts of a recursive function?
++ return itself 
++ inside function definition you put logic
++ base case will stop the recursive calls
+
+Tail call optimization?
+++ limiting callstack size
+
+What is the difference between map, forEach, and a regular loop?
+What is the difference between arrow function and regular function declaration?
+What are some examples of primitive and composite data types?
+What is the difference between return/break/continue?
+
+***************************************************************
+CONCLUSION
+
+General Notes:
+
+What They Did Well:
+
+What They Didn't Do Well:

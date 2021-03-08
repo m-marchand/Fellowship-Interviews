@@ -1,0 +1,197 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: Jun 7
+Interview #: 1
+Candidate Location: Burbank 
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: minAndMax
+Time: 0:00
+
+// Declare a variable 'randomNums' and set it equal to an array that contain the numbers 1, 14, 7, 21, and -6.
+
++ goes through his thought process and lets me know why he's reading prompt
+- uses var
+
+/*
+Create a function 'minAndMax' that takes an array of numbers and returns both the smallest and largest number in an array, in that order.
+NOTE: do not use the native Math.min or Math.max methods. For example minAndMax([7, 68, 2, 19]) should return the array  [2, 68]
+*/
+
++ reads prompt
++ example provides a test, writes out the test w console.log
++ goes through input and output
++ talks through high level approach
++ uses const
+
+
+//  Check that your 'minAndMax' function is working correctly by passing your variable 'randomNums' to the 'minAndMax' function
+
++ all good, passes array in
+- implementation not working ... he's somewhat quiet
++ sort needs a sort function, talks through and gets it
++/- got confused about expected outcome but function worked
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 9:30
+
+/*
+Create a function "between50And500" that takes a number as an argument.
+"between50And500" should return a true if the number passed to it is between 50 and 500 exclusive.
+For example, if the input is 45 then your function should return false and if the input is 472 it should return true.
+*/
+
++ reads prompt first and writes test
++ questions are simple but still want to break them down 
+- misunderstands exclusive
+
+/*
+Create a function "divBy100" that takes a number as an argument.
+"divBy100" should return a true if the number passed to it is divisible by 100.
+For example, if the input is 120 then your function should return false and if the input is 600 it should return true.
+*/
+
++ "have to be careful of division by 0"
++/- writes out inputs/outputs but not high level pseudocode
+- not using modulo operator
+- confused between JS and Ruby
+- not using console.logs to debug
++/- tries to open devtools haha
++ finds error in logic before refactoring code
++ give him hint to google something similar to what he would use in Ruby, solves it
+
+/*
+Create a function "negativeOrEven" that takes a number as an argument.
+"negativeOrEven" should return a true if the number passed to it is a negative number OR it is an even number.
+For example, if the input is 7 then your function should return false and if the input is -3 it should return true.
+*/
+
+- doesn't really catch the OR in prompt
++ writes tests
+-/+ doesn't use || but it works with two if statements 
+
+/*
+Create a function "passAllTests" that takes an array of functions and another value as arguments.
+Each function in your array will return a boolean value. "passAllTests" should pass your value argument to each function.
+If all functions in your array return true then "passAllTests" will return true. Otherwise "passAllTests" should return false
+*/
+
++ "Higher order function"
+- using map in high level approach 
++ pseudocode 
++ can't use map
+- uses .each instead of forEach or for loop
++ uses let
+- not talking through approach step by step
++ stuck on wheter his logic is correct, moving on to using passAllTests
+
+/*
+Use your "passAllTests" function to test if the number 300 is greater than the number 50 and less than the number 500,
+divisible by the 100, and a negative number OR even. Then test the number 250.
+*/
+
+- passes array of functions into function in an array
++ uses error messages
++ corrects array of array issue
+- gave him nudge to find typo error with forEach
++ looks up the incorrect each method finds error
++ goes through logic to find error 
++ realizes JS does not have a string.reverse, converts to array using split
+- realizes he should spend more time on approach 
++ knows about array reference vs value
++ using a for loop 
++ uses spread operator
++ short circuits for loop
+
+Problem C: isPalindrome
+Time: 40:00
+
+/*
+Define a function "isPalindrome" that takes a string, and returns a boolean value indicating whether the string is a palindrome
+(a palindrome is any string that has the same value when reversed - for example, "LEVEL" or "RACECAR")
+*/
+
++ reverses string
++ references typescript types
++/- looking up docs for reverse, tries to call it on a string
++ says he'll deal with edge cases later on
++ uses const for an array and let in other cases
+
+***************************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
++ compiler will move variable to the top of the code before it is run 
++ talks about consequences
+- gets a little too into it, 
+
+var vs let vs const.
++ old school = var
++ last two are ES6, block scoped 
++ var is function scoped
+
+What is the difference between map, forEach, and a regular loop?
+
+
+***************************************************************
+SCORE: 7/6/9/8/8
+
+CONCLUSION
+
+General Notes: James seems to have a strong background in code and anaylytical thinking but maybe overestimates his strength in Javascript specific fundamentals. 
+
+What They Did Well: Had a good process of verifying he understood the prompt
+
+What They Didn't Do Well: After getting past the prompt and the basics of the requirements of each prompt, James didn't get much down in terms of communicating or writing down to actual approach. This led to some syntax issues, some general confusion on flow, and confusion of differences between ruby and JS. 
