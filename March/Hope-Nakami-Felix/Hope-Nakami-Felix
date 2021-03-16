@@ -1,0 +1,230 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: Apr 5 FTRI
+Interview #: 2
+Candidate Location: New York 
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: societyName 
+Time: 0:00
+
+// Declare a variable 'names' and set it to an array with the values 'Chris', 'Samantha', 'Richard', and  'Kyle' in it.
+
++ uses const and array literal
++ simple so he says he wont use pseudocode
+
+/*
+A group of friends have decided to start a secret society. The name will be the first letter of each of their names, sorted in alphabetical order.
+Create a function 'societyName' that takes in an array of names and returns the name of the secret society.
+For example, if our input is ['Adam', 'Sarah', 'Malcolm'] then 'societyName' should return the string 'AMS'
+*/
+
++ reads prompt carefully
++ pseudocode: defines inputs and outputs
+- he isn;t alphabetizing the output array
++ formats pseudocode
++ explains use of let
++ great communication 
++ for ... in 
+- not the most specific technical language
++ semicolons
++ creating test cases
++ had himn reread the prompt for the sorting, he cathes it and immediately knows to use sort array methods
+
+
+// Check that your 'societyName' function is working correctly by passing the value of 'names' to the function 'societyName'
+
+
+
+***************************************************************
+
+**LEVEL 2 CHALLENGES**
+Problem B: countTimes / wordSearchLetterCounter
+Time: 6:30
+
+/*
+Create a function "countTimes" that takes in two arguments (an array and a search value).
+"countTimes" should return the number of times the search value is present in the array.
+Example:
+countTimes([1, 8, 9, 9, 10], 9) -> 2
+*/
+
++ talks about using ES6
++ good clarifying question
+- good at communicating but not super precise
++ gets analytical approach super fast
++ good debugging before running code
++ great test coverage
+
+
+/*
+Create a function called "wordSearchLetterCounter" that takes two arguments (a 2 dimensional array of letters known as our word search, and a letter that we are going to search for).
+"wordSearchLetterCounter" should use your "countTimes" function to count the total number of times a letter show up in the word search.
+Example:
+wordSearchLetterCounter([
+  ["D", "E", "Y", "H", "A", "D"],
+  ["C", "B", "Z", "Y", "J", "K"],
+  ["D", "B", "C", "A", "M", "N"],
+  ["F", "G", "G", "R", "S", "R"],
+  ["V", "X", "H", "A", "S", "S"]
+], "D") ➞ 3
+"D" shows up 3 times: twice in first row, once in third row.
+*/
+
++ reiterates the prompt with good communication
++ reads through the question again to fully understand
+- precise technical communication 
++ Great at letting me know exactly what he's doing
++ uses const in for loop for array
+
+
+Problem C: changeCase / effectString
+Time: 17:00 
+
+/*
+Create a function "changeCase" that takes in a letter as an argument, and returns the letter in the opposite case.
+Examples:
+changeCase('a') -> 'A'
+changeCase('B') -> 'b'
+*/
+
++ good clarifying question
++ good handle on array methods
++ uses outside resource to check syntax
++ uses scope to short circuit if statement
+
+/*
+Create a function "effectString" that takes in two arguments (a string and a callback function).
+"effectString" should apply that callback function to each letter in the string and return out a new string.
+*/
+
++ makes sure not to mutate the input after rereading prompt
+- not sure about whether he needs to split string
++ really easy to follow thought process
++ "evaluated result" 
+
+
+// Check to that your "effectString" is working properly by passing it the string "hello WORLD" and the callback function "changeCase"
+
+- uses const wrong
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 26:00 
+
+/*
+Create a function "checkerLogger" that takes one argument (a function that returns a boolean value) The returned function should have the following behavior:
+If the function is invoked with an argument, the checker callback function is invoked and its boolean result is returned.
+If the function is invoked without any arguments, instead return a count of the number of times the callback function has been invoked and evaluated true or false.
+Example:
+const isOdd = num => num % 2 === 1
+const oddCounter = checkerLogger(isOdd);
+oddCounter(); ->  { true: 0, false: 0 }
+oddCounter(3); -> true
+oddCounter(2); ->  false
+oddCounter(); -> { true: 1, false: 1 }
+*/
+
++ immediately recognizes closure
++ makes sure to focus on inputs and outputs
++ "closed over variable environment" 
+- got flustered, forgot to use pseudocode
+- not understanding the difference between outer func's arg and inner funcs arg
++ rereads prompt and catches his error
++ working well through this block
+- indentation gets wonky
+- working through bracket stuff, give him a push
++ cleaning stuff up
+- gets a little lost when nervous about bracket stuff
++ checks logic and catches an error
+- looking at each individual bracket
+- deletes all of his brackets
++ brackets are lined up!!
++ gets objects back! 
++ immediately tells me the problem but doesn't know how to fix it 
++ GOT IT
+
+
+***************************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+What is a callback? What is a higher-order function?
+
++ HOF call another function
++ evaluated result
++ callback is invoked inside another function
+
+Can you describe closure to me?
+
++ JS concept where a func returns another function
++ scoped variables are saved
+
+What is the difference between arrow function and regular function declaration?
+
++ arrow functions cant be anonymous 
+
+***************************************************************
+
+CONCLUSION // 9, 9, 10, 8, 9
+
+General Notes: Nakami seemed a bit nervous but was still able to prove a good knowledge of Javascript syntax and problem solving. 
+
+What They Did Well: Was able to come up with an approach and to diagnosed bug on a high level almost immediately
+
+What They Didn't Do Well: Got tripped up on some smaller blocks and his technical language was sometime imprecise 
+
+
