@@ -1,0 +1,223 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: April 9
+Interview #: 2
+Candidate Location: NYC 
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: societyName 
+Time:
+
+// Declare a variable 'names' and set it to an array with the values 'Chris', 'Samantha', 'Richard', and  'Kyle' in it.
+
++ reads prompt out loud
++/- uses const but then backtracks
+
+/*
+A group of friends have decided to start a secret society. The name will be the first letter of each of their names, sorted in alphabetical order.
+Create a function 'societyName' that takes in an array of names and returns the name of the secret society.
+For example, if our input is ['Adam', 'Sarah', 'Malcolm'] then 'societyName' should return the string 'AMS'
+*/
+
++ carefully reads prompt, repeating important info
++ pseudocodes input and output
++ immediately uses great pseudocode before code
++ "mutate an array"
++++ console logs sorted array to make sure its alphabetized
++ very methodic, no superfluous technical communication
+- looking up splice/slice/replace methods? 
+-/+ uses charAt instead of brackets
+
+// Check that your 'societyName' function is working correctly by passing the value of 'names' to the function 'societyName'
+
+- little iffy on how to test his function
+
+***************************************************************
+
+**LEVEL 2 CHALLENGES**
+Problem B: countTimes / wordSearchLetterCounter
+Time: 9:00
+
+/*
+Create a function "countTimes" that takes in two arguments (an array and a search value).
+"countTimes" should return the number of times the search value is present in the array.
+Example:
+countTimes([1, 8, 9, 9, 10], 9) -> 2
+*/
+
++ adjusts approach as he goes
+- doesn't really too much of a high level, just straight into individual steps
++ good technical communication
+++ testing automatically with 2 cases
+
+
+/*
+Create a function called "wordSearchLetterCounter" that takes two arguments (a 2 dimensional array of letters known as our word search, and a letter that we are going to search for).
+"wordSearchLetterCounter" should use your "countTimes" function to count the total number of times a letter show up in the word search.
+Example:
+wordSearchLetterCounter([
+  ["D", "E", "Y", "H", "A", "D"],
+  ["C", "B", "Z", "Y", "J", "K"],
+  ["D", "B", "C", "A", "M", "N"],
+  ["F", "G", "G", "R", "S", "R"],
+  ["V", "X", "H", "A", "S", "S"]
+], "D") ➞ 3
+"D" shows up 3 times: twice in first row, once in third row.
+*/
+
++ thinking through the long prompt
++ has a good grasp on approach pretty quickly
+- could explain his thinking in more detail outside of technical communication
++ jk he just started to to that but maybe do it at the beginning of each problem using more detailed pseudocode
++ good naming conventions
++ double checks work before running it
+- dont be afraid to run first then debug
+- const vs let
++ nice edgecase handling
++ using console logs to debug
+
+Problem C: changeCase / effectString
+Time: 25:00
+
+/*
+Create a function "changeCase" that takes in a letter as an argument, and returns the letter in the opposite case.
+Examples:
+changeCase('a') -> 'A'
+changeCase('B') -> 'b'
+*/
+
++ says it simple so not sure to use pseudocode 
++ clarifying question about inputs
+- realizes question is a bit trickier than first thought
+- looking for a method to check letter case
++ knows to look up string methods
+- maybe use online resources for just for syntax not to research applicable methods
+- doesn't use strictly equal
++ testing as he goes to create an approach
++ growth mindset
+
+/*
+Create a function "effectString" that takes in two arguments (a string and a callback function).
+"effectString" should apply that callback function to each letter in the string and return out a new string.
+*/
+
++ forEach doesnt work on strings
++ good understanding of callbacks
+
+// Check that your "effectString" is working properly by passing it the string "hello WORLD" and the callback function "changeCase"
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 38:30
+
+/*
+Create a function "checkerLogger" that takes one argument (a function that returns a boolean value) The returned function should have the following behavior:
+If the function is invoked with an argument, the checker callback function is invoked and its boolean result is returned.
+If the function is invoked without any arguments, instead return a count of the number of times the callback function has been invoked and evaluated true or false.
+Example:
+const isOdd = num => num % 2 === 1
+const oddCounter = checkerLogger(isOdd);
+oddCounter(); ->  { true: 0, false: 0 }
+oddCounter(3); -> true
+oddCounter(2); ->  false
+oddCounter(); -> { true: 1, false: 1 }
+*/
+
++ looking through Examples
+- hasnt mentioned closure yet
++ got closure! 
++ "this is confusing" but doesnt seem like a bad thing to him "gonna pseudocode this out"
++ approach is good
++ understands control flow with optional arg
+- kinda quiet on communication when confused
++ reiterates out loud to me
++ uses scope to return cache is no arg
++ recognizes communication broke down a bit
+- some trouble testing re closure
++ got it/ reiterates
+
+***************************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+
+Can you describe closure to me?
++ return a func from another func 
++ takes variables from the inner functions scope in memory
+
+var vs let vs const.
++ has to do with scope
++ cant reassign const
++ can use const with arrays and objects
+
+What is the difference between map, forEach, and a regular for loop?
++ for Each iterate through an array and takes a callback
++ also talks about filter, creates new array
+- not too sure about map
++ uses a variable that is incremented to look at indexes
++ forEach doesn't work on strings, use for array 
+
+***************************************************************
+
+CONCLUSION: 9/9/9/9/9
+
+General Notes: Roland seems like he's studied a lot and gotten the codesmith technical communication style down. He has great and simple approaches!
+
+What They Did Well: Technical communication, general technical approach
+
+What They Didn't Do Well: Not having a clearly noted high level approach meant that he had to do a lot of adjusting which made technical communication a bit jumpy at points
+
+
