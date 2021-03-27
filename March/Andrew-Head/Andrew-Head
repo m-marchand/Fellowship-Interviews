@@ -1,0 +1,188 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: May 10
+Interview # 1
+Candidate Location: 
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: minAndMax
+Time: 
+
+// Declare a variable 'randomNums' and set it equal to an array that contain the numbers 1, 14, 7, 21, and -6.
+
++ reads prompt 
++ great technical communication
++ asks to keep it brief
+- uses let
+
+/*
+Create a function 'minAndMax' that takes an array of numbers and returns both the smallest and largest number in an array, in that order.
+NOTE: do not use the native Math.min or Math.max methods. For example minAndMax([7, 68, 2, 19]) should return the array  [2, 68]
+*/
+
++ ES6 function expression
++ GOING FAST
+- uses let for an array
++/- hits first block
+- not the simplest code
+
+//  Check that your 'minAndMax' function is working correctly by passing your variable 'randomNums' to the 'minAndMax' function
+
+- forgot to console log at first but it works!
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 5:00
+
+/*
+Create a function "between50And500" that takes a number as an argument.
+"between50And500" should return a true if the number passed to it is between 50 and 500 exclusive.
+For example, if the input is 45 then your function should return false and if the input is 472 it should return true.
+*/
+
++ writes inputs and outputs and strategy
+- decision-structure statements?
+- not the most concise code, didnt use &&
+
+/*
+Create a function "divBy100" that takes a number as an argument.
+"divBy100" should return a true if the number passed to it is divisible by 100.
+For example, if the input is 120 then your function should return false and if the input is 600 it should return true.
+*/
+
++/- good process but doesnt show knowledge of approach immediately
+- weird one line syntax
+
+/*
+Create a function "negativeOrEven" that takes a number as an argument.
+"negativeOrEven" should return a true if the number passed to it is a negative number OR it is an even number.
+For example, if the input is 7 then your function should return false and if the input is -3 it should return true.
+*/
+
+- communication is all over the place, more thinking out loud
+- "triple equals"
+- extra brackets
+
+/*
+Create a function "passAllTests" that takes an array of functions and another value as arguments.
+Each function in your array will return a boolean value. "passAllTests" should pass your value argument to each function.
+If all functions in your array return true then "passAllTests" will return true. Otherwise "passAllTests" should return false
+*/
+
++ fun to chat with
++ nice overall strategy pseudocode
+- switch = null?
+- could be helpful to use pseudocode in his actual code
+- nesting is off for for loop and if else statements
+
+/*
+Use your "passAllTests" function to test if the number 300 is greater than the number 50 and less than the number 500,
+divisible by the 100, and a negative number OR even. Then test the number 250.
+*/
+
++ didn't we just write these functions?
+- not passing in an array
+- got error bc used reserved word switch
+- debugging parens and also missing [i] in for loop
+- not really communicating at this point
++ found it!
+- hit a bigger block but now is talking through it
++ fixed it and comunicated what was wrong 
+
+Problem C: isPalindrome
+Time: 27:00
+
+/*
+Define a function "isPalindrome" that takes a string, and returns a boolean value indicating whether the string is a palindrome
+(a palindrome is any string that has the same value when reversed - for example, "LEVEL" or "RACECAR")
+*/
+
++ writes down approach in pseudocode, sounds good
+- could be a little more delibarate when communicating 
+- thinks he needs recursion and stressed about it
++ tells me he's looking for string methods
+- a little stuck on string methods, reading through MDN
+- switching to a for loop after asking a clarifying question
+- putting base case inside of for loop?
+- pretty good at communicating through this block
+- using parens for return gave him hint seems to be back on track
+- googling how to remove last character
+- frustrated bc i wont get to the closure problem now
+- using switcher again
++ using more console logs
+
+****************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+Can you describe closure to me?
++/- state or data is encapsulated through assignment outside of scope, ended well
+
+var vs let vs const.
++ var is pre ES6
++ let is mutuable, const is constant
+
+What are some examples of primitive and composite data types?
++ simple data types string number
++ arrays and object are complex
+
+
+***************************************************************
+CONCLUSION - 7/7/8/6/5
+
+General Notes: Andrew brought a lot of good energy and showed good fundamentals. He was self deprecating and got in his head and tach communication and analytical approach suffered
+
+What They Did Well: Good high level pseudocode, great asnwers to all freeflow questions. He told me "peace, love, and soul train" when we were saying bye! 
+
+What They Didn't Do Well:
