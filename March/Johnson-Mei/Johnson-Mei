@@ -1,0 +1,168 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: April 5th
+Interview #: 1st
+Location: New York
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+
+Problem B: minAndMax
+Time: 0:00
+
+randomNums
+- not very friendly and 8 minutes late
++ reads prompt
++ console logs
+
+minAndMax
++ "ES5 syntax"
+- doesn't vocalize his high level approach, just dives into code
++ good technical communication while writing out code
+
+test minAndMax
++ passes in array correctly
+
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 5:00
+
+between50And500
+- starts writing code right after reading prompt once
++ just returns a conditional statement
++/- remind him to write test cases but he does more than one
+
+divBy100
++ talks me through it a bit better this time, talks me through modulo operator
++ writes test cases
+
+negativeOrEven
++ great logic
+- not sure anyone would be able to follow along with him
+
+passAllTests
++ thinks through prompt out loud
+- uses a variable instead of short circuiting for loop
+- good high level tech communication ie. plain english but more detailed talk throug might be good
++ goes over what he did
+
+test passAllTests with funcs above
+- doesn't immediately recognize that we already created these functions
++ understands HOF, catches typo right away
+
+Problem C: isPalindrome
+Time: 17:00
+
+isPalindrome
+- still doesnt go over high level beforehand, clarifications, or use any pseudocode
++/- iterates backwards using a for loop instead of using array method to reverse string
++ goes over approach at the end
+- wasn't going to test it out
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 22:00
++ recognizes closure
+- wasn't going to write a test case until I asked him to
+
+Problem B: getLength
+Time: 25:00
++ immediately recognizes recursion
+- uses global variable instead of default parameter or helper function
++ uses bang operator for undefined value
+- syntax with two ; on same line
+
+***************************************************************
+**LEVEL 4 CHALLENGES**
+Problem A: transpose
+Time: 30:00
++ starts to talk through high level bc unsure about approach 
++/- is going to use "double for loop"
+- doesn't really say anything until he is able to put code down 
+- hits first bug! is going through line by line to himself though (not out loud)
+- went silent until he fixed his bug
++ got it at the end!
+
+Problem B: rotateGrid
+Time: 41:00
++ writing out visualizations
++/- this one is hard but not really communicating technically through his drawings, just thinking in his head
+
+
+
+
+
+***************************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
+// doesn't know
+
+Can you explain the main parts of a recursive function?
+Tail call optimization?
+// 1)base case is when you break out of recursion. 2)recursive call. 3)didn't know tail call optimizations.
+
+What is the difference between map, forEach, and a regular loop?
+// for loop just runs a block of code a certain amount of times, forEach has a function within it and doesnt return anything, map returns a new array after using a callback on each element
+
+What is the difference between arrow function and regular function declaration?
+// the syntax 
+
+SCORE - 10/6/6/6/7
+
+
