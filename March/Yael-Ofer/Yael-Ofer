@@ -1,0 +1,147 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: April 19th
+Interview #: 1
+Candidate Location: LA
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: minAndMax
+Time: 0:00
+
+variable 'randomNums'
+
++ reads prompt clearly 
++ "declare a variable"
+- uses let
+
+'minAndMax'
++ talks through the prompt out loud other than whats written
++ tells me her strategy before writing
++ uses word parameter correctly
++ is writing out pseudocode with logic nesting
++ could perfectly implement this solution based off of her technical communication
++ asks question about edge cases
+- uses push method instead of literal notation
++ asked about test cases
++ knows to console.log and passes array correctly
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 11:30
+
+"between50And500"
++ clarifying question about exclusive
++ uses explicit return statements
++ talks clearly through every step
++ multiple test cases
+
+"divBy100" 
++ groups these questions together as "control flow"
++ strong analytical instinct
+- not always the most efficient code but explicit
+
+"negativeOrEven"
++ returns true or false like before in long form 
++ says "evaluated result"
+
+"passAllTests"
+- using a boolean flag instead of short circuiting
++ uses descriptive parameter titles
++ starts up with pseudocoding again to organize thoughts
++ adjusts approach while not abandoning it
++ really good about using semicolons
+- uses break but not fully short circuiting
+
+Use your "passAllTests" 
++/- invoking function in array of funcs but immediately corrects 
++ talks through at end
+
+Problem C: isPalindrome
+Time: 32:00 
++ really easy to understand her abstract reasoning 
++ "delimiter" for split method and tries to console log to test 
++ uses docs to check split method
++ understands error messages and fixes implementation
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 40:00
++ immediately recognizes closure from prompt
+- incorrectly uses term higher order function
+- not amazing high level communication through closure
++ but gets it pretty easily
+
+Problem B: getLength
+Time: 44:00
++/- gave her light hint and she picked up on recursion 
++ storing length as a default parameter
++ uses slice as not to mutate the original input
+
+**FREEFLOW QUESTIONS**
+
+What is the difference between the two equality comparisons: loosely equal and strictly equal?
++ different levels of stringency
++ === identical data types
++ == coerces data types
+
+Can you describe closure to me?
++ inner functions has access to values in scope of outer function
+
+var vs let vs const.
++ var is ES5, others are ES6.
++ var is function scoped, others are block scoped
++ might get issues bc of hoisting
+
+***************************************************************
+
+SCORE - 9/9/10/9/10
