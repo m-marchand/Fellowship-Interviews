@@ -1,0 +1,121 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: April 19th
+Interview #: 2
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 0:00
+
++ recognizes closure - "backpack"
++ is talking through high level
++ psuedocode matches clearly with his approach 
+- not sure if the approach makes sense however considering the expected output from prompt
+- strange code formatting
++ calls spread operator the "args method"?
++ verbose conditional statement 
+- refactoring now that his outputs are coming out differently than prompt
++ can follow along with his tech communication 
+- using object constructor to create an object
++/- good technical communication but hard to follow high level approach
+- using control flow instead of just using callback evaluation to update object
++ good testing!
++ summarizes
+
+Problem B: countChar 
+Time: 19:30
+
++ recognizes that he'll need to use recursion
++ good communication through high level approach
++ thinks about edge cases
+- planning on using slice
++ ES6 function expression
++ default parameter
++ realizes he can't use slice bc native JS method
++ gave him a nudge and he got it!!
++/- weird clarification question about adding more parameters
+- using let even though he declared variable as defualt parameter
++ testing!
++ catches bug
++ gonna use a console log to start debugging
+- went silent for a min
++/- looking up string methods online
++ gave him a nudge and he got it
++/- new bug bc he's incrementing index right away
+- recognizes the problem but not sure how to solve it
++ finds bug! let's see how he fixes it
++ fixes it
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: Transpose
+Time: 42:00
+
++/- not sure whether to use recursion or loops
++ non-recursive solution
++ talks through approach
++ nested for loops
++ great high level approach
+
+***************************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+Can you explain the difference between bracket notation and dot notation?
++ brackets can use computed values like variables
++ dot notation you have to use the name of the key. easier to call values individually?
+
+Can you describe closure to me?
++ a way to create local memory space attached to a function
+
+Can you explain the main parts of a recursive function?
+Tail call optimization?
+- doesnt know about tail call optimization
++ base case: when to stop
++ recursive call: calls the function with new arguments
+
+***************************************************************
+
+SCORE - 8/8/8/7/9
+
+
