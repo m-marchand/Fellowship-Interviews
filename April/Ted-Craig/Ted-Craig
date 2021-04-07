@@ -1,0 +1,103 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: April 19th
+Interview #: 2
+Location: LA
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 0:00
++ reads prompt carefully
++ hasn't mentioned word closure but has jumped into pseudocode
++ good clarification of inputs and outputs
++ very simple, clear logic in pseudocode, accounts for closure
++ I like that he separates high level approach from implementation pseudocode
++ descriptive technical communication
++ asks clarifying question and discusses edge cases
++ uses const for an object
++ checking work with a console log
+- inefficient if/else statement and doesn't use bang operator
++ thinks through logic systematically to avoid bugs later on
++ using ternary operator!
++ great clarifying questions and use of docs to check logic
++ writing a test case without me asking --- beautiful!!!
+- error in test cases
+- maybe spends too much time on details, many unneeded console logs during tests
+
+
+Problem B: countChar 
+Time: 26:30
++ immediately recognizes use case for recursion
++ talks through justification for each piece of logic
++ high level approach is correct right away
+- sometimes his communication is a bit unclear when talking through reasoning
++ used argument to describe comething but corrected to parameter
++ 
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: deepCopy
+Time: 39:30
++ talks through shallow vs deep copy at high level accurately
++ immediately calls recursion use case
++ great high level approach
++ stays positive and consistent even though he knows he wont finish in time
++ talks about objects and arrays both being objects
++ keeps working diligently even though he's blocked
+
+***************************************************************
+
+**FREEFLOW QUESTIONS**
+
+What is the difference between a parameter and an argument?
++ parameter is named placeholder, argument is passed in and takes parameter label
+
+Can you describe closure to me?
++ returned function retains state of variable it is referencing, saves them in COVE
+
+Tail call optimization?
++ Chrome doesn't support this
++ optimization only using 1 frame of call stack
+
+SCORE: 9/10/10/10/10
+
+
