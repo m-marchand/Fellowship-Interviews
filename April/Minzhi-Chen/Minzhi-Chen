@@ -1,0 +1,133 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: May 10th
+Interview #: 1
+Candidate Location: Michigan
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: minAndMax
+Time: 0:00
+
+'randomNums' array
++ talks through prompt
+- uses let
+
+Create a function 'minAndMax'
++ pseudocodes outputs
+- good high level but doesnt use very precise javascript terms 
+- formatting a bit inconsistent 
+- it would be easier to follow him if he talked through high level before talking through implementation of code
++ knows how to invoke 
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 5:00
+
+"between50And500"
++ inefficient conditional statements but corrects it using &&
+- still a bit inefficient
++ testing without me asking!
++ clarification question
+
+"divBy100"
++ talks through modulo operator
+- using let with function expressions
++ uses multiple test cases
+
+"negativeOrEven" 
+- uses loosely equal
+
+"passAllTests"
+- not so much talking through prompt, just whispering it to himself
+- seems kind of blocked since he's not really talking
++ comes up with a good high level approach
+- uses var in for loop and underscores in variable NAME
+- not technically communicating
++ short circuits loop!
+
+Use your "passAllTests" function
+- not talking at all except 
+- hit syntax error, wants me to find it 
++ he finds it after a while!
+
+Problem C: isPalindrome
+Time:24:00
++ somewhat advanced approach using pointers and a while loop
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 28:00 
+- hasn't said anything
+- isn't familiar with closure
+- seems like he doesn't have a lot of exposure to Javascript
++ arrow syntax
++ suggest that he google for something to persist data from a function
++/- now kinda pair programming through it, by the end he can talk me through the solution he made
+
+Problem B: getLength
+Time: 41:00
++ recognizes use case for recursion right away
+- not sure about an approach
++ asks clarifying questions about methods
+- stuck, giving him hints similar to closure question
+
+***************************************************************
+**
+
+**FREEFLOW QUESTIONS**
+
+Can you describe closure to me?
++ inner function can access other functions variables
+
+var vs let vs const.
++ var is function scoped
++ let and const are block scoped
+- didn't mention const
+
+Can you explain the main parts of a recursive function?
++ recursive call with modified inputs
+- didnt mention base case
+
+***************************************************************
+
+SCORE - 7/6/7/7/7
