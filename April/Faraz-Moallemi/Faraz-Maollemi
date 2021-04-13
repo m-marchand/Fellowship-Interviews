@@ -1,0 +1,111 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: June 
+Interview #: 2
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 0:00
++ reads prompt clearly
++ reads through test cases to understand inputs/outputs
++ easily indentifies closure and talks me thru the concept
++ using pseudocode in very codesmith style, indents 
++ declarative variable names
+- might want to dive into code a bit quicker as not to get lost in logic
++ uses a const for function expression and 'ES6 syntax'
++/- technical communication is good but a bit too imperative
++ efficient use of conditional statement to check for truthiness
++ uses an expression inside of bracket notation 
++ debugs before running code
++ writes test case without me asking
+- gets confused about function keyword vs function expression, just a syntax error
++ console logging is pretty smart
++/- using the docs but not really sure why
++ keeps communicating through block
++ interested in learning more about his error even though he doesnt know right away 
+
+Problem B: countChar 
+Time: 19:00
++ immediately identifies recursion 
++ good definition for recursion with use cases
++/- approach sounds close but not sure i could implement from speech alone
++ 'default param'
++ great technical communication through parts of recursion
++ building approach has he goes but shows good sense of logic
++ good clarifying questions!
++ creates a workaround for no JS properties pretty quickly
++ communication seems to be getting stronger, maybe he was nervous before
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: deepCopy
+Time: 30:00
+- was unsure about concept of deep copy
+- thinks he needs to use closure
++ familiar with pass by reference vs value 
++/- talking throgh the prompt with him
++ approach moving in right direction now
+- seems nervous to jump into logic when he's not confident
++/- I'm not really following his approach but I like that he's going for it
++ good idea of prompts constraints but maybe too mired in details too soon
+
+***************************************************************
+
+**FREEFLOW QUESTIONS**
+
+var vs let vs const.
++ ES6 in 2015, var is function scoped while the others are block scoped
++ const cant be reassigned
+
+Can you explain the main parts of a recursive function?
+Tail call optimization?
++ base case, recursive call, inputs
++ base case will exit recursion, recursive call is kind of like iterating
++ tail call optimization doesn't add additional frames to call stack 
+
+What is the difference between arrow function and regular function declaration?
++ ES6, used with expression and allows for implicit return
+
+
+***************************************************************
+
+SCORE - 9/9/9/9/9
+
+
