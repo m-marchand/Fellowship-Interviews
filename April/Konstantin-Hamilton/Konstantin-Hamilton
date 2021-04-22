@@ -1,0 +1,102 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: May 10
+Interview #: 1
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: minAndMax
+Time: 0:00
+
+'randomNums' 
++ reads prompt clearly
+- uses let
+
+'minAndMax' 
++ beginss writing out pseudocode outlining inputs and outputs
+- "go through" instead of iterating but off to an okay start with technical communication
++ very conversational communication
+- getting blocked, pretty quiet
+- looking up a similar problem online
+- at 10 minutes still doesn't seem to have an approach
+- looking up "finding minimum element of an array"
++ using a console log to see what's going on
++ forgot to call function but caught the error right away
++ starting to formulate an approach after console logging for loop @ 15:30
+- getting lost again, just copying the existing input array.
+- instead of accepting feedback he says "that's what I was thinking"
+- can't tell what his conceptual goal is 
+- doing driver navigator with him
++ knows for loops, bracket notation, how to declare a variable
+- returns a console log 
+
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: addNumbers
+- doesn't talk through an approach before diving into framing the function
++ knows while loops but doesn't have a strong grasp on implementation before ending
+
+***************************************************************
+
+**FREEFLOW QUESTIONS**
+
+What is a callback? What is a higher-order function?
++ HOF accepts a callback as an input
+- references notes for callback
+
+var vs let vs const.
++ const is immutable
++ var can be changed, but not best practice, us elet instead
+
+What are some examples of primitive and composite data types?
+- doesnt know
+
+SCORE - 4/4/7/3/4
