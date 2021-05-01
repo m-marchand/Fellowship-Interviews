@@ -1,0 +1,106 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: Flexible (NY/FTRI)
+Interview #: 1
+Candidate Location:
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem A: addNumbers
+Time: 0:00
++ reads prompt
++ psuedocodes and prefaces it as a best practices
++ uses const
++ defined inputs and outputs in high level p-code
++ great technical communication (for loop) as is reflected in descriptive p-code
++ using let bc "plans on updating it"
++ has a strong understanding of each part of the for loop
+- inconsistent semicolons
++ strong technically so far
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time:7:30
+
++ talking through whether he needs if statement 
+- ends up using if statement (not efficient)
++ uses scope to return false
++ good understanding of control flow syntax
++ creates multiple test cases to cover expected outputs
+- makes small mistakes with comparison operators
+- technical communication is very high level, more detail could help
+- first for loop was perfect but this one has mistakes, he seems nervous
++ short circuits for loop using scope!!!
++ catches typos fast
+- forgets to pass any functions to passAllTests
+- array syntax 
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 34:00
+
++ recognizes closure
+- stopped using pseudocode when I mentioned he didn't need to for passAllTests
+- good understanding of closure function definition but doesn't know how to test it
++ googling error message! gets bracket error
+- can't figure out how to test this, I helped him out
+- definitely checkout the hard parts lecture on closure
+
+
+***************************************************************
+
+
+**FREEFLOW QUESTIONS**
+
+What is the difference between a parameter and an argument?
++ argument is what is passed
++ params are placeholders
+
+var vs let vs const.
++ var has been replaced in ES6. var is globally scoped, so causes naming issues in codebase
++ let const block scoped, let you can reassign
+
+Can you explain the main parts of a recursive function?
++ calling the same function until you get a desired result
+
+***************************************************************
+SCORE - 7/8/9/7/8
