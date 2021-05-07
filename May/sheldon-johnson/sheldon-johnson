@@ -1,0 +1,109 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: FTRI May 24th
+Interview #: 2
+Candidate Location:
+
+***************************************************************
+
+Problem C: changeCase / effectString
+Time: 0:00
+
+- No camera
++ talks through high level approach
+- pseudocode is not technically specific
++ uses es6 func declaration
++ uses scope with conditional for efficiency
++ tests his solution twice
+- kind of hard to understand him
++ great high level communication but details are harder
++ good pseudocode w/ strong approach
++ passes arguments to callback in HOF easily
+- gets mixed up with datatypes easily
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 12:00
++ Immediately knows to use closure
++ uses const for objects
+- not the most efficient solution since he didn't initialize the object with any values 
+- can't really follow his approach simply becuase of his speaking
++ knows how to create a test case
+
+Problem B: countChar 
+Time: 21:00
++ knows to use recursion right away with a base case 
++ clearly understands how to iterate using recursion
+- syntax error with recursive invocation, he goes the wrong direction here. gave him a push
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+
+A: transpose
+Time: 32:00
+- has a hard time understnading the prompt but not great clarifying questions
++ good clarifying thought about how to split up arrays
++ spends a good time thinking about approach and eventually just goes for one even though its not perfect
+- give him a push to use loops
+- still not able to get any code down to test things out 
++ uses let to be able to reassign an array
+
+***************************************************************
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
+- doesn't know
+
+Can you describe closure to me?
++ variable environment is carried outside of its exectution context
+
+What is the difference between map, forEach, and a regular loop?
++ applies a callback to each element
++ for loop has more control, conditional statement
++ forEach, used on arrays, just loops
+
+***************************************************************
+
+SCORE: 9/7/7/7/7
+
+
