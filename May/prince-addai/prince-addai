@@ -1,0 +1,138 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: August, NY
+Interview #: 2
+
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: societyName 
+Time: 0:00
++ reads prompt
+- uses let, but has a good description of its use
+- use of whitespace is a bit inconsistent
+- good pseudocode but stops speaking while writing it out
++ once I ask him to technically communicate me through his pseudocode he does a great job
++ writes a test before coding
+- doesn't know that JS has a sort method if('a'>'b') {console.log(true)}
++ bulk of function is well constructed and fast 
+- no semi-colons
++ tests as he goes
+- suggested using google, went quiet while he looked up sort method
++ good grasp of array vs string methods
+- inefficient syntax, not chaining
+
+***************************************************************
+
+**LEVEL 2 CHALLENGES**
+Problem B: countTimes / wordSearchLetterCounter
+Time: 11:00
++ gets to a wokring approach via pseudocode pretty fast 
++/- trying to use ternary operator, not a great use case
++ it works! reiterates approach for countTimes
+
+wordSearchLetterCounter
++ speaks through high level after reading prompt 
+- maybe shaky on HOFs re technical communication/high level approach
+- doesn't use semantic variable naming 
++ got it, tests it
+
+Problem C: changeCase / effectString
+Time: 23:00
++ great analytical thinking, "first I have to know the case of the letter"
++ tells me about issues he has with function expressions re hoisting
++/- writing a helper function to determine case
+- refactoring using a ternary
+- says that fewer lines makes code more readable 
+
+effectString
+- good high level but technical communication doesnt have very detailed terms, might just be becuase he seems to have non JS coding experience
+- backtracking on my comments about high level analytical approach, didn't know which callback to use here
+- keeps telling me he would figure out a way to make all of his solutions more performant but they dont need to be optimized
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 31:00
+- calls this Higher Order Function instead of closure
++ but he is accurately returning a function
+- seems to be thinking as he is coding, would like to see him hit a block
+- uses old school || instead of initializing in the object literal 
+- indentation of code is a mess
+- not talking to me so much as to himself
+- hitting parsing bugs because of brackets/indentation/syntax
+
+Problem B: countChar 
+Time: 44:00
++ good scoping of problem trying to find approach 
++ jumping into pseudocode though he doesn have an approach yet
++/- give him a push and realizes he needs recursion
++ "base case"
+
+***************************************************************
+
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
++ hoisted to top of script so it can be used before it is defined
+
+Can you describe closure to me?
+- related to scope, what area you can access in a function
+
+Can you explain the main parts of a recursive function?
++ base case: terminates the function
++ body of the recursive function 
+
+***************************************************************
+
+SCORE: 8/7/8/7/8
+
+
