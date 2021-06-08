@@ -1,0 +1,224 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: doubleChar
+Time:
+
+// Declare a variable 'myRandomString' and set it to the value 'Codesmith'
+
+/*
+Create a function 'doubleChar' that takes a string as an argument and returns a string in which each character is repeated once.
+For example, if we pass the string 'Hello World!!' to 'doubleChar' it should return the string 'HHeelllloo  WWoorrlldd!!'
+*/
+
+// Check that your 'doubleChar' function is working correctly by passing the value of 'myRandomString' to it
+
+
+
+***************************************************************
+
+**LEVEL 2 CHALLENGES**
+Problem A: containsJ / screen
+Time:
+
+// Declare a variable 'programmingLanguages' and set it to an array that contains the values 'C++', 'Java', 'Python', Javascript', and 'Swift'.
+
+/*
+Create a function 'containsJ' that takes a string as an argument
+'containsJ' should return a boolean value based off of whether or not the string being passed to it contains the letter 'j' or 'J.
+For example, if the input is 'Cat' then your function should return false, and if the input is 'Jaguar' it should return true.
+*/
+
+/*
+Create a function 'screen' that takes in two arguments an array and a callback function that will be applied to every element in the array.
+The callback function will return a boolean value. When 'screen' is called it will apply the callback function on every element in the array.
+If the result of the callback function is true then that element in the array will be added to a new array. The 'screen' function will return that new array.
+For example, if we were to call 'screen' and pass to it an array containing the elements 1, 2, 3, 4, 5, and 6 as the first argument and a callback function that tested if its argument was even for the second argument, then we should get the result [2, 4, 6] from our call to 'screen'
+*/
+
+// Check that your 'screen' function is working correctly by passing it your 'programmingLanguages' array and your 'containsJ' function
+
+
+
+
+Problem C: countChars / doToEachElement
+Time:
+
+/*
+Create a function "countChars" that takes argument (a string).
+"countChars" should return the number of characters in the string. You should not count whitespace as characters.
+*/
+
+/*
+Create a function "doToEachElement" that takes two arguments (an array and a callback function).
+"doToEachElement" should return a new array containing the returned values from running the callback function on each element in the array.
+*/
+
+/*
+Check that your "doToEachElement" function is working properly by calling it with the array containing the strings "hello world", "I love programming", and "Twin Snakes are my favorite candy" and your "countChars" function.
+*/
+
+
+
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem B: sumAllElements
+Time:
+
+/*
+Create a function "sumAllElements" that takes in two arguments (an array of numbers and a initial value). "sumAllElements" will return the sum of the elements in the array starting at the initial value.
+Example:
+sumAllElements([1,2,3,4], 10) -> 20
+Note: Do NOT use any native JS methods, or loops
+*/
+
++ great at expressing thoughts
++ when I said um: ...
++ explains why he cant use splice
+- uses initial as a variable name for accumulator
+
+
+Problem C: fastCache
+Time:
+
+/*
+Create a function "fastCache" that takes one argument (a function) and returns a function. When fastCache is invoked it creates an object that tracks calls to the returned function, where each input to the returned function is associated with its output. Every subsequent call to that returned function with the same argument will return the output directly from the object, instead of invoking the original function again.
+example:
+SINGLE ARGUMENT CASE
+const multiplyBy2 = num => num * 2;
+const cachedMultiplyBy2 = fastCache(multiplyBy2);
+cachedMultiplyBy2(100); // -> 200
+cachedMultiplyBy2(150); // -> 300
+cachedMultiplyBy2(100); // -> 200 // from the cache object
+MULTIPLE ARGUMENTS CASE
+const sumMultiplyBy2 = (num1, num2) => 2 * (num1 + num2);
+const cachedSumMultiplyBy2 = fastCacheMult(sumMultiplyBy2);
+cachedSumMultiplyBy2(5, 10); // -> 30
+cachedSumMultiplyBy2(1, 2); // -> 6
+cachedSumMultiplyBy2(5, 10); // -> 30 // from the cache object
+*/
+
+
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: anagrams
+Time:
+
+/*
+Write a function 'anagrams' that produces all possible anagrams of a string and outputs them as an array.
+Example:
+console.log(anagrams('aabc')); -> [ 'aabc', 'aacb', 'abac', 'abca', 'acab', 'acba', 'baac', 'baca', 'bcaa', 'caab', 'caba', 'cbaa' ]
+*/
+
+
+
+Problem C: bestProfit
+Time:
+
+/*
+I have an array stock_prices_yesterday where:
+- The indices are the time in minutes past trade opening time, which was 9:30am local time
+- The values are the prices in dollars of Apple stock at the time
+For example, the stock cost $500 at 10:30am, so stock_prices_yesterday[60] = 500;
+Write a function 'bestProfit' for computing the best profit I could have made from 1 purchase
+and 1 sale of 1 Apple stock yesterday
+Return 0 if no profit is possible OR if input is invalid.
+More examples:
+bestProfit([ 100, 1, 123, 120 ]); // 122
+bestProfit([ 100, 100, 100, 100 ]); // 0
+bestProfit([ 100, 88, 44, 2 ]); // 0
+bestProfit([ 100, 88, 99, 300 ]); // 212
+*/
+
+
+
+
+***************************************************************
+
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+What is the difference between a parameter and an argument?
+Can you explain the difference between backet notation and dot notation?
+What is a callback? What is a higher-order function?
+What is hoisting?
+Can you describe closure to me?
+var vs let vs const.
+What is the difference between a console log and a return statement?
+Can you explain the main parts of a recursive function?
+Tail call optimization?
+What is the difference between map, forEach, and a regular loop?
+What is the difference between arrow function and regular function declaration?
+What are some examples of primitive and composite data types?
+What is the difference between return/break/continue?
+
+***************************************************************
+
+CONCLUSION
+
+General Notes:
+
+What They Did Well:
+
+What They Didn't Do Well:
+
+
