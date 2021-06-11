@@ -1,0 +1,162 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem B: sumAllElements
+Time:
+
++ reads prompt clearly
++ has been pracitcing PP
++ got it on first run of code
+
+
+
+Problem C: fastCache
+Time:
+
+/*
+Create a function "fastCache" that takes one argument (a function) and returns a function. When fastCache is invoked it creates an object that tracks calls to the returned function, where each input to the returned function is associated with its output. Every subsequent call to that returned function with the same argument will return the output directly from the object, instead of invoking the original function again.
+example:
+SINGLE ARGUMENT CASE
+const multiplyBy2 = num => num * 2;
+const cachedMultiplyBy2 = fastCache(multiplyBy2);
+cachedMultiplyBy2(100); // -> 200
+cachedMultiplyBy2(150); // -> 300
+cachedMultiplyBy2(100); // -> 200 // from the cache object
+MULTIPLE ARGUMENTS CASE
+const sumMultiplyBy2 = (num1, num2) => 2 * (num1 + num2);
+const cachedSumMultiplyBy2 = fastCacheMult(sumMultiplyBy2);
+cachedSumMultiplyBy2(5, 10); // -> 30
+cachedSumMultiplyBy2(1, 2); // -> 6
+cachedSumMultiplyBy2(5, 10); // -> 30 // from the cache object
+*/
+
+
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: deepCopy
+Time:
+
+/*
+Write a function 'deepCopy' that creates a deep copy of every level of a given object or array, and returns it, no matter deep the object is nested.
+Example:
+const tools = [{ editor: { favorite: { mine: { name: 'vscode' } } } }, { shell: 'zsh' }];
+const copyOfTools = deepCopy(tools);
+console.log(copyOfTools === tools);                                        // -> false
+console.log(copyOfTools[0] === tools[0]);                                  // -> false
+console.log(copyOfTools[0].editor === tools[0].editor);                    // -> false
+console.log(copyOfTools[0].editor.favorite === tools[0].editor.favorite);           // -> false
+console.log(copyOfTools[0].editor.favorite.mine === tools[0].editor.favorite.mine);      // -> false
+console.log(copyOfTools[0].editor.favorite.mine.name === tools[0].editor.favorite.mine.name); // -> true
+*/
+
+
+
+Problem C: bestProfit
+Time:
+
+/*
+I have an array stock_prices_yesterday where:
+- The indices are the time in minutes past trade opening time, which was 9:30am local time
+- The values are the prices in dollars of Apple stock at the time
+For example, the stock cost $500 at 10:30am, so stock_prices_yesterday[60] = 500;
+Write a function 'bestProfit' for computing the best profit I could have made from 1 purchase
+and 1 sale of 1 Apple stock yesterday
+Return 0 if no profit is possible OR if input is invalid.
+More examples:
+bestProfit([ 100, 1, 123, 120 ]); // 122
+bestProfit([ 100, 100, 100, 100 ]); // 0
+bestProfit([ 100, 88, 44, 2 ]); // 0
+bestProfit([ 100, 88, 99, 300 ]); // 212
+*/
+
+
+
+
+***************************************************************
+
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+What is the difference between a parameter and an argument?
+Can you explain the difference between backet notation and dot notation?
+What is a callback? What is a higher-order function?
+What is hoisting?
+Can you describe closure to me?
+var vs let vs const.
+What is the difference between a console log and a return statement?
+Can you explain the main parts of a recursive function?
+Tail call optimization?
+What is the difference between map, forEach, and a regular loop?
+What is the difference between arrow function and regular function declaration?
+What are some examples of primitive and composite data types?
+What is the difference between return/break/continue?
+
+***************************************************************
+
+CONCLUSION
+
+General Notes:
+
+What They Did Well:
+
+What They Didn't Do Well:
+
+
