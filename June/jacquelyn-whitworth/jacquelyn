@@ -1,0 +1,103 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem B: societyName 
+Time:
+
+// Declare a variable 'names' and set it to an array with the values 'Chris', 'Samantha', 'Richard', and  'Kyle' in it.
+
+/*
+A group of friends have decided to start a secret society. The name will be the first letter of each of their names, sorted in alphabetical order.
+Create a function 'societyName' that takes in an array of names and returns the name of the secret society.
+For example, if our input is ['Adam', 'Sarah', 'Malcolm'] then 'societyName' should return the string 'AMS'
+*/
+
+// Check that your 'societyName' function is working correctly by passing the value of 'names' to the function 'societyName'
+
+
+
+***************************************************************
+
+**LEVEL 2 CHALLENGES**
+Problem B: countTimes / wordSearchLetterCounter
+Time: 0:00
+
++ Jackie drove, great translation of pseudocode
+- put variable outside of function body
++/- not too strict about roles
++ good variable naming conventions
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time:
++ Jackie is navigating 
++ Seems nervous (a bit serious) but really friendly otherwise
+- stuck a bit on the concept of closure, think she might need a bit more time with This
++ got through the question with a bit more involement from driver
+
+
+Problem B: countChar 
+Time:
++ Jackie is driving
++ good grasp on parts of recursion and was able to write out my solution easily
+
+Problem C: itemRetriever
+- similarly not too clear on closure and what exactly its used for
++ got a working solution after thinking through exactly what needs to be saved in the closure
+
+SCORE: 9/9/9/8/8
+
+
