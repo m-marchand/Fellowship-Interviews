@@ -1,0 +1,132 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date: Jul 26th
+Interview #: 1
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem A: addNumbers
+Time: 0:00
+- very nervous/self-deprecating
++ reads prompt, talks me thorough first steps
++ using pseudocode
++ returns the output first and creates a test CHALLENGES
++ good code formatting/indentation
++ easily solves 
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 5:30
++ good technical communication using precise JS terms
++ talks through prompt contraints and what they mean
++ uses scope default to false --> efficient code
++ tests all sub-functions
++ using an arrow function just for fun
++ great concise pseudocode
++ has a good attitude about a challenging question "oh fun"
++ writing out high level approach
+- could go more step by step through prompt to be sure before diving into reasoning
+- using a flag instead of short circuiting --> less efficient runtime, however uses break to achieve same result
+- even though you're still thinking talk through your considerations even if only at a very high level
+
+Problem C: isPalindrome
+Time: 23:00
++ thinks about outputs first
++ using resources to check functionality of pop method
++ only iterates to the halfway point --> very efficient
+- tried to use pop on a string
++ pivots approach when pop doesn't work
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 31:00
++ immediately sees closure 'returns a function'
++ descriptive argument names
++ tests it out
+
+
+Problem B: getLength
+Time: 34:00
++ recognizes recursion and knows main parts terminology
++ avoids common bug using prefix incrementor
++ uses default parameter
+
+***************************************************************
+**LEVEL 4 CHALLENGES**
+Problem A: transpose
+Time: 38:00
+- pretty silent in terms of high level here
+- could keep communication going when unsure 
++ goes ahead and tests what he has while being unsure
+- switched approach to use a forEach
+
+***************************************************************
+
+LAST 15 MINUTES
+Ask some free flow questions. Free flow questions are to get a better sense of the applicant's knowledge of JavaScript. These are some common questions to ask, but will be different based on the interviewee.
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
+/ issue with var, brings all variables to top of scope
+/ why we use let, block scoped
+
+Can you describe closure to me?
+/ inner function has access to variables outside its scope
+/ can store function in variable and excapsulates it's declaration
+
+What is the difference between arrow function and regular function declaration?
+/ looks different, hoisting
+
+***************************************************************
+
+SCORE - 10/9/9/9/8
