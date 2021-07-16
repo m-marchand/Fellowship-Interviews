@@ -1,0 +1,127 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem A: addNumbers
+Time: 0:00
+
+- uses var
++ reads prompt super clearly, making sure to understand it
++ starts with pseudocode, inputs, high level approach
++/- trying to use recursion ---> got it on first try!
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 3:00
+
+50and500
++ pseudocode is even indented to reflect logic
+- using a for loop here, overly complicated
+- conditional logic will give a bug here (no &&)
++ good debugging skills - expected outputs
++ gave him a little push and he got it
+
+divBy100
++ much improved logiv from last one - no for loop
++ consistently tests his code
+
+negativeOrEven
++ great technical communication, especially as he's coding
+
+passAllTests
+- not gonna short circuit - a few inefficiencies here
++ super solid logic in his pseudocode, I could implement his code
++ same with tech communication
+- didn't invoke the function being iterated over
++ really solid on testing this functionality - HOFs
+- there's a bug with the way he's returning a boolean here, switched to some pair programming to discuss - could use some more independent debugging skills
+
+Problem C: isPalindrome
+Time: 29:00
++ has a strong handle on JS, how to manipulate strings
++ creating modular functions, maybe not the most efficient here but pretty mature 
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 33:00
+
++ gets down a returned function right away - but doesn't use the word closure
+- invokes the outer function instead of using the variable in the closure
+- erases code to restart
+
+Problem B: getLength
+Time: 45:00
+
++ knows to use recursion
+
+
+***************************************************************
+
+**FREEFLOW QUESTIONS**
+
+var vs let vs const.
++ var and let can be reassigned, const can't be changed 
+
+Can you describe closure to me?
++ hides away some things 
+
+Can you explain the main parts of a recursive function?
++ initializer? accumulator, recursive call
+
+***************************************************************
+
+SCORE: 7/8/10/7/7
