@@ -1,0 +1,94 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem B: sumAllElements
+Time: 0:00
+
+Driving: 
++ clarifying questions 
++ writes test case first
++ thinks we should use recursion
++ got caught on prompt restriction (no methods) but is moving forward well
++ solution works
+
+
+Problem C: fastCache
+Time: 16:00
+
++ strong understanding of closure from discussing prompt
+- inefficient solution to checking for a key in an object
++ really easy to work with 
++ knows where to look to debug
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: deepCopy
+Time: 35:00
+
++ had a good discussion about storage by reference in JavaScript --> getting it
++ knows we need to use recursion
++ strong base and recursive case
++ didn't finish but he's on his way to a solution and showed interest in learning about this topic
+
+
+
+
+***************************************************************
+
+SCORE: 10/9/10/9/9
+
+
