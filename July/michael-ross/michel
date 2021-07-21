@@ -1,0 +1,102 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time:
+
++ reads prompt inputs/outputs
++ good grasp of testing
+- pretty quiet
+
+** fastCache ** @ 4:00
++ good handle on using pseudocode
++ making sure he has a good understanidng of prompt before coding
+- doesn't seem to be on purpose but talking over navigator
++ uses spread and rest to refactor
++ pretty good debugging skills
+
+Problem B: getLength
+Time: 19:00
+
++ catches recursion 
++ clear discussion of base and recursive case
+
+***************************************************************
+**LEVEL 4 CHALLENGES**
+Problem A: deep copy
+Time: 24:00
+
++ pretty confused but still going
+- no clear plan so far ~ 10 min
++ clarifying the question
++ staying positive - open to learning new concept
+- getting pretty stuck in his own thinking
+
+
+***************************************************************
+
+
+**FREEFLOW QUESTIONS**
+
+What is the difference between the two equality comparisons: loosely equal and strictly equal?
++ loosely compares values, strictly compares values and type
+
+Can you describe closure to me?
++ carrys data saved in outer function scope to inner function
+
+
+
+***************************************************************
+SCORE: 9/8/9/9/9
