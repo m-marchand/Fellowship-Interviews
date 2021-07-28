@@ -1,0 +1,124 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+
+*********LEVEL 2 CHALLENGE: *********************
+
+Problem C: changeCase / effectString
+Time: 0:00
+
+changeCase
++ chatted about growth mindset before BEGINNING
++ clearly defines problem from prompt
++ descriptive variable names
+- not the most efficient pseudocode or initial approach
++ great recovery from advice I gave her to improve approach efficiency --> good use of pseudocode here to track logic
++ makes sure to test code
+
+effectString
++ starts with defining parameters and clarifying output in natural language --> helps clarify for others
++ good grasp on working with strings in JS --> splitting string
++ great technical communication --> intuitional sense of when to clarify code
++ great debugging skills! jumps right into console logging at the beginning of the code --> great analytical approach
+- switching to another approach because of bug in forEach, but had good understand of all components of the issue --> dont give up!
+
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 12:50
+
++ identifies closure
+- didn't identify need for cache until into coding --> initially uses a number to track cache
++ uses const for complex data types
++ responds to questions really well meant to bring solution in line with example
+
+Problem B: countChar 
+Time: 21:00
+
++ correctly identifies recursion 
++ logically rules out approaches that wont work -> for loops, slicing
++ great code formatting and style
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: transpose
+Time: 30:00
+
++ brings up time complexity when thinking about using nested loops
+- letting a desire for more efficient algo lead her away from an efficient implementation --> time complexity here with nested loops wouldn't even be O(n^2) but her familiarity with time complexity is great!
+- try to get it so that you can get an output and then debug
++ brings in the example to help debug
++ not giving up when blocked! --> consistently trying new ideas
++ going through approach line by line to think it through
+
+
+***************************************************************
+
+**FREEFLOW QUESTIONS**
+
+Can you describe closure to me?
++ return a function from a function. will memoize/save data in outer function 
+
+What is the difference between map, forEach, and a regular loop?
++ map is used with array and a callback, foEac h doesn't return anything also with a callback, for loop isn't used with arrays
+
+What is the difference between arrow function and regular function declaration?
++ ES6 with arrow functions
+
+***************************************************************
+
+SCORE: 9/9/10/8/8
+
+
