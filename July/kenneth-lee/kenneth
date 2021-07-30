@@ -1,0 +1,134 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem A: addNumbers
+Time: 0:00
+
++ clearly reads prompt
++ good clarifying question about wheter we will be reassigning variable
++ thinking through prompt verbally -> clarifies inputs/outputs, gives high level approach
++ dives into pseudocode, clear common language. I can implement his solution from technical comm and pseudocode alone
+- not indenting his code -> can be harder to track things like scope and not best practices
+really precise tech comm
++ great debugging, intuitionally knows where to look for syntax and logical errors
+
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 7:00
+
+between50And500
++ good clarification
++ efficient code syntax -> single line return
++ multiple test cases
+
+divBy100
++ uses pseudocode to guide code line by line -> methodical approach
+
+passAllTests
++ gives a great and precise high level overview before writing anything down
++ short circuited the for loop if a function return false
++ uses bang operator to check for a falsy value in an if statement
+
+Problem C: isPalindrome
+Time: 23:00
+
++ iterating over the string backwards
++ asked him about edge cases and he had a great answer
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 31:00
+
++ perfectly writes a solution -> strong use of closure but doesnt specify that verbally
++ has a clear understanding of how to test closure
+
+
+Problem B: countChar
+Time: 35:00
+
++ asks a clarifying question to confirm what he can't uses, recognizes closure
++ uses descriptive terminology like 'base case'
++ specifies inputs in pseudocode covering all of the needed functionality before diving into code -> uses deafult params
++ consistently uses semi-colons!
+
+
+***************************************************************
+**LEVEL 4 CHALLENGES**
+Problem A: transpose
+Time: 45:00
+
++ knows to use nested for loops to access first elements of each subarray in the input!
++ uses const with complex data types
+
+***************************************************************
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
++ moving all declarations to top of scope before executing code
+
+Can you describe closure to me?
++ variable environment that is attached to another function and has outlived its execution context, variables are available to the returned function
+
+What is the difference between arrow function and regular function declaration?
++ arrow function is ES6, more compact syntax
++ arrow function does not bind to 'this'
+
+***************************************************************
+
+SCORE: 10/9/10/9/9
