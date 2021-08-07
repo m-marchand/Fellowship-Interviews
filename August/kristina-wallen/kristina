@@ -1,0 +1,117 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+
+
+***************************************************************
+
+Problem C: changeCase / effectString
+Time: 0:00
+
+changeCase
++ reads through prompt and then discusses approach 
++ jumps into pseudocode -> very descriptive but still in normal language
+- pseudocode maybe too verbose
++ solid approach and code right away
++ writing test cases
++ great technical communication
+
+effectString
+- slight inefficiency converting string to an array when a for loop and concatenation could have been used
+- declares variable instead of returning evaluation of map
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+
+Problem A: sumAllElements
+Time: 8:00
+
++ asks a good clarifying question about function inputs
+- stress difference between technical communication and pseudocode. She writes everything she says though these tools can have different uses -> maybe writing helps her think?
+- no semicolons
++ strong coding ability and descriptive tech communication shows strong fundamentals
+
+Problem B: checkerLogger
+Time: 15:00
+
++ code is always perfect first time it's written bc pseudocode covers all logic
++ great descriptive variable names
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: deepCopy
+Time: 24:00
+
++ she has an understanding of reference vs. value in JS
++ seems very willing to work through this problem/block -> staying positive 
++ pairing through this one and she can convert my navigation into code really easily though missing minor syntax quirks like 'typeof' operator
+
+
+***************************************************************
+
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
++ Javascript moves declarations to the top of the file -> discussion of best practices 
+
+Can you describe closure to me?
++ backpack reference from Will's lecture
++ gives inner function access to outer function's scope
+
+***************************************************************
+
+SCORE: 9/10/9/9/8 
+
+

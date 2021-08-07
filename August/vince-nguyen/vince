@@ -1,0 +1,142 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+
+**LEVEL 2 CHALLENGES**
+Problem B: countTimes / wordSearchLetterCounter
+Time: 0:00
+
+countTimes
++ using pseudocode to define approach
+- psuedocode isn't implementation details, only one line of high level
++ using a forEach array method here, pretty fluid writing code
++ writing a test case unprompted
+
+wordSearchLetterCounter
++ easily identifies most important points in the prompt and voices this casually
++ clarifies approach vocally as he is coding
++ even uses multiple test cases here
+
+
+Problem C: changeCase / effectString
+Time: 7:00
+
+changeCase
++ not as fast working with strings, doesn't seem to know about case string methods initially -> wants to use regex
++ as he thinks it through comes up with simpler approach  using above methods
+- not the most methodical process
++ uses a ternary statement!
+
+
+effectString
++ blowing through the questions so far
+- got a sense of a little bit of over confidence when chatting with him at the beginning -> upset he had to intervew again cause he did so well last time
++ using for...of loop, strong grasp of javascript 
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: checkerLogger
+Time: 14:00
+
++ using some solid pseudocode as a reasoning tool here
++ using specific terms to talk about closure
+- talks through logic as he codes it, might be hard for someone to follow along with him
+- not clear on the expected output here.
++ going back to refactor once he realizes the output is expected to be an object
++ definitely showing coding skills by refactoring quickly but unfocused approach above has taken extra time
+
+
+Problem B: countChar 
+Time: 25:00
+
++ has an intuitive understanding of how to deal with this problems constraints 
++ uses shorthand syntax
++ finds error easily
+
+
+
+***************************************************************
+
+**LEVEL 4 CHALLENGES**
+Problem A: transpose
+Time: 32:00
+
++ drawing out a visual to help him understand prompt
+- uses let keyword pretty consistently with compound data types
++ forms a strong approach before coding
++ naturally leans on pseudocode when he hits a challenging problem
++ slowing down the logic here, maybe he just felt like he needed to rush before
+- communicated he needed a second to think silently
+
+
+***************************************************************
+
+
+**FREEFLOW QUESTIONS**
+
+What is hoisting?
++ variable declarations are moved to the top during creation phase
+
+Can you describe closure to me?
++ a function that has access to an outer function's scope
+
+What is the difference between an arrow function and regular function declaration?
++ different syntax, more readable, different behavior with arguments object, this keyword  
+
+
+***************************************************************
+
+SCORE: 9/8/9/9/9
+
+
