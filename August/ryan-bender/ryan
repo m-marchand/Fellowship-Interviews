@@ -1,0 +1,141 @@
+AT THE BEGINNING OF EACH INTERVIEW
+
+READ THIS:
+
+“I will paste an endless series of increasingly difficult challenges 
+into the editor. Your task is to figure them out as best as you can, 
+and remember that we're looking for qualities beyond how many 
+questions you get through, such as technical communication and 
+engineering best practices.
+
+Feel free to use any online resources that you normally would, 
+e.g. Google, Stack Overflow, documentation pages. Just don't look up 
+the solution directly. And when you do look something up, let me know 
+what you are looking up so I can understand your thought process. 
+There are no penalties for looking things up.
+
+There are also no penalties for errors, so don't be afraid to run your 
+code with an expected outcome and use any error messages to your 
+advantage in refactoring to get the desired outcome.
+
+Remember the importance of testing your code as some of the problems 
+will build on each other, so you want to make sure it works before 
+moving on.
+
+Also, be sure to verbalize your thought process, as your technical 
+communication is something we're looking for. As you're thinking 
+through it, be sure to keep me updated on your overall strategy. 
+This will help me to assess how you might work in a pair programming 
+session or group environment.
+
+Lastly, I'm not able to give any technical feedback today, but you 
+will receive feedback and the result of your interview directly from 
+an Admissions Team Member within one week. We'll spend the last few 
+minutes of the interview on any non-technical questions you may have. 
+Do you have any questions now regarding the format of the interview?”
+
+NEXT, CONFIRM THE FOLLOWING:
+
+Cohort start date:
+Interview #
+Candidate Location:
+
+INTERVIEW BEGINS:
+Send them the link to their CS Bin page: 
+http://csbin.io/interview/INTERVIEWEE-NAME
+
+The break down of questions given to interviewees should be as follows:
+1 level 1 question
+2 level 2 questions
+2 level 3 questions
+2 level 4 questions
+
+***************************************************************
+**LEVEL 1 CHALLENGES**
+Problem A: addNumbers
+Time: 0:00
+
++ reads first, but uses let
++ talks through the body of the function, inputs/outputs
++ highlights high level concept --> for loop
++ using pseudocode in concise natural language
+- not the most fluent technical communication, and didn't create an overall high level approach before diving into implementation logic
+- didn't pass in his variable and getting a bug from code logic
+- tried to give him a hint and wasn't receptive, now switching to a new approach with a while loop.
++ gave him the hint and he produced a wokring solution 
+
+***************************************************************
+**LEVEL 2 CHALLENGES**
+Problem A: passAllTests
+Time: 9:00
+
+between50And500
+- trying to use implicit boolean with conditional statement but syntax is incorrect, no return 
+- not giving him self time to formulate an approach, basically just diving in
+- maybe nerves are throwing off syntax (brackets)
+
+divBy100
++ has a good grasp on how to deal with the constraints of the problem in code
++ tried out my suggestion but doesn't ask anything further when the hint doesnt immedately work 
++ consistently testing
+
+negativeOrEven
++ has a good grasp on JavaScript operators
+
+passAllTests
++ planning on using pseudocode as this one is more complicated
++ does identify a high level approach here but doesn't go into intermediate details in pseudocode before writing actual code
+- completely incorrect .forEach syntax
+- using the 'this' keyword though we're dealing with no objects
++ ask him about how forEach works and gives me a good answer -> pretty far down a debugging hole however
++ going through to clean up nesting to help with debugging though still an error
++ talking me through code to work through block
+- kind of talks over me when trying to make it a more back and forth
+
+Problem C: isPalindrome
+Time: 35:00
+
++/- knows this question
++ more detailed pseudocode here
+
+***************************************************************
+
+**LEVEL 3 CHALLENGES**
+Problem A: add
+Time: 41:00
+
++ gets code down right away, no pseudocode or discussion of approach
++ good grasp of how to code out a closure
+
+Problem B: getLength
+Time: 44:00
+
++ uses a default parameter
++ not technically communicating through parts of recursion --> base case/recursive case
+
+
+
+
+
+
+***************************************************************
+
+
+**FREEFLOW QUESTIONS**
+
+
+What is a callback? What is a higher-order function?
++ HOF calls another function, the func called is a cb
+
+Can you describe closure to me?
++ the data taken from a function that has outliced its execution context. this data remains accessible to other functions
+
+What is the difference between map, forEach, and a regular loop?
++ for loop more flexible
++ forEach iterates over array using a function called on each element
++ map not as familiar, running 
+
+
+***************************************************************
+
+SCORE: 6/7/8/7/6
